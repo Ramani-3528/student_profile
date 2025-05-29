@@ -49,12 +49,13 @@ h2 {
 
 button {
     font-family: "Lora";
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 700;
     background-color: rgb(142, 54, 107);
     color: #faf7f9;
-    border: 2px solid #dfdffd;;
+    border: 2px solid #dfdffd;
     border-radius: 5px 5px;
-    padding: 8px 10px 9px 10px;
+    padding: 6px 8px 6px 8px;
 }
 
 button:hover {

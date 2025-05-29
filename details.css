@@ -37,7 +37,7 @@ h1 {
     font-weight: 400;
     color: rgb(118, 57, 92);
     text-align: center;
-    padding: 4rem 0rem;
+    padding: 2rem 0rem;
 }
 
 h2 {
@@ -49,13 +49,22 @@ h2 {
     padding: 0px 0px 15px;
 }
 
+h3{
+    font-size: 30px;
+    font-family: "Caveat";
+    font-weight: 900;
+    color: rgb(133, 70, 108);
+    text-align: left;
+    padding: 0px 0px 15px;
+}
+
 button {
     font-family: "Lora";
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     background-color: rgb(142, 54, 107);
     color: #faf7f9;
-    border: 2px solid #dfdffd;;
+    border: 2px solid #dfdffd;
     border-radius: 5px 5px;
     display: block;
     padding: 6px 10px 6px 10px;
@@ -63,6 +72,7 @@ button {
 
 button:hover {
     font-family: "Lora";
+    font-weight: 700;
     background: #dfdffd;
     color: rgb(12, 10, 10);
     transform: scale(1.05);/*slight zoom; */
