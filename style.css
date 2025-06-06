@@ -120,3 +120,59 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* padding: 0rem 1rem; */
+    }
+    h1{
+        font-family: "Poetsen One"; 
+        font-size: 30px;
+        font-weight: 400; 
+        color: rgb(118, 57, 92);
+        text-align: center;
+        padding: 15px;
+    }
+    .studentContainer {
+        padding: 1px;
+    }
+    .studentBody{
+        border: none;
+    }
+    .student1Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+    .student2Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+    .student3Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+    .student4Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+    .student5Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+    .student6Block{
+        border: 5px solid #dfdffd;
+        border-radius: 6%;
+    }
+}
