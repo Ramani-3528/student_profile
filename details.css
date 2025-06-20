@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-wrap: pretty;
-    /* border: 1px solid rgb(239, 35, 161); */
+    /* border: 0.1rem solid rgb(239, 35, 161); */
 }
 
 html {
@@ -33,7 +33,7 @@ p {
 
 h1 {
     font-family: "Poetsen One"; 
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 400;
     color: rgb(118, 57, 92);
     text-align: center;
@@ -41,33 +41,33 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 4rem;
     font-family: "Caveat";
     font-weight: 900;
     color: rgb(133, 70, 108);
     text-align: center;
-    padding: 0px 0px 15px;
+    padding: 0rem 0rem 1.5rem;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 3rem;
     font-family: "Caveat";
     font-weight: 900;
     color: rgb(133, 70, 108);
     text-align: left;
-    padding: 0px 0px 15px;
+    padding: 0rem 0rem 1.5rem;
 }
 
 button {
     font-family: "Lora";
-    font-size: 12px;
+    font-size: 1.6rem;
     font-weight: 700;
     background-color: rgb(142, 54, 107);
     color: #faf7f9;
-    border: 2px solid #dfdffd;
-    border-radius: 5px 5px;
+    border: 0.2rem solid #dfdffd;
+    border-radius: 0.5rem 0.5rem;
     display: block;
-    padding: 6px 10px 6px 10px;
+    padding: 0.6rem 1rem 0.6rem 1rem;
 }
 
 button:hover {
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .screensize {
-    max-width: 500px;
+    max-width: 50rem;
     margin: auto;
 }
 
@@ -89,16 +89,16 @@ button:hover {
 }
 
 .studentBody {
-    border: 5px solid #dfdffd;
+    border: 0.5rem solid #dfdffd;
     border-radius: 4rem 4rem;
     padding: 3rem 6rem 3rem 6rem;
 }
 
 .list {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Lora";
     color: rgb(152, 85, 125);
     text-align: start;
-    padding: 0px 0px 15px;
+    padding: 0rem 0rem 1.5rem;
     list-style: none;
 }
